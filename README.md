@@ -1,33 +1,12 @@
-# Real-time-Face-Recognition-using-OpenCV-and-webcam
+# Realtime-Face-Recognition
 
+使用 Python 中的 OpenCV 库使用计算机网络摄像头进行实时人脸识别。 https://opencv.org/
 
-I used the OpenCV library in Python to do a real-time Face recognition using the computer webcam.
-https://opencv.org/
+人脸检测是使用基于特征的级联分类器完成的。 https://docs.opencv.org/3.3.0/d7/d8b/tutorial_py_face_detection.html
 
-Face detection is done using feature-based cascade classifiers.
-https://docs.opencv.org/3.3.0/d7/d8b/tutorial_py_face_detection.html
-
-This project contains 2 python scripts. The  first script is the datagathering in which individuals' pictures are gathered to be uses in the recognition process.
-the recognizer script with then train and run the model.
-
-Before starting the data gathering, a driectory for the project should be created.
-mkdir project
-
-haarcascade_frontalface_default.xml should be downloaded to the project's directory.
-
-(the project directory should containg the python scripts and the haarcascade part.)
-
-then the "subdirectory" for datagathering should be created. In this subdirectory picture samples for each individual is stored.
-
-mkdir data
-
-
-haarcascade_frontalface_default.xml:
-https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml
-
-Based on a complete Tutorial:
-https://www.instructables.com/id/Real-time-Face-Recognition-an-End-to-end-Project/
-
+该项目包含 2 个 python 脚本。
+- Recognizer.py 识别人脸
+- datagathering.py 收集人脸数据，应该把人脸数据放在这个文件夹
 
 
 
